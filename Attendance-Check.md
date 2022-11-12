@@ -1,2 +1,2 @@
->**`#0969DA`Chinnawich** : 
+>**Chinnawich** : 
 > >setting mongoDB compass & git-github
