@@ -19,7 +19,6 @@
 // in my class.
 // ${Day}`;
 // console.log(dialog3);
-//-----------------------------------------------------
 
 //-------------------- Back Tick--------------------
 
@@ -33,7 +32,6 @@
 //    My age is ${age}
 // `;
 // console.log(info);
-//-----------------------------------------------------
 
 //--------------- objects -----------------------------
 
@@ -58,8 +56,6 @@ const user = {
 
 // console.log(user.address.postcode)
 
-//-----------------------------------------------------
-
 //---------------- Arrow Function ---------------------
 
 // const showData = () => `${user.name}`;
@@ -73,32 +69,72 @@ const user = {
 
 // console.log(showData3(4,6));
 
-//-----------------------------------------------------
-
 //----------Destructuring Assignment-------------------
 
-const product = { productName: "coffee", price: 150 };
+// const product = { productName: "coffee", price: 150 };
 
-const { productName, price } = product;
+// const { productName, price } = product;
 
-const { address: {postcode} } = user;
+// const { address: {postcode} } = user;
 
-console.log(postcode)
+// console.log(postcode)
 
-console.log(`${productName} ${price}`);
+// console.log(`${productName} ${price}`);
 
-function getSentent({ subject, verd, object }) {
-  return `${subject} ${verd} ${object}`;
-}
+// function getSentent({ subject, verd, object }) {
+//   return `${subject} ${verd} ${object}`;
+// }
 
-const o = {
-  subject: "I",
-  verd: "love",
-  object: "JavaScript",
-};
+// const o = {
+//   subject: "I",
+//   verd: "love",
+//   object: "JavaScript",
+// };
 
-console.log(getSentent(o))
+// console.log(getSentent(o))
 
-//-----------------------------------------------------
+// ------------------ Spread Operator -----------------
+const obj1 = { firstName: "foo", age: 22 };
+const obj2 = { firstName: "Bar", gender: "M" };
+
+const newObj = { ...obj1, ...obj2, planet: "Zoo" };
+
+console.log(newObj);
+//Log --> Merge --> { firstName: 'Bar', age: 22, gender: 'M', planet: 'Zoo' }
+
+//--------------------Rest Parameters------------------
+
+// function myFunc (a,b, ...allArge) {
+//     console.log(`alllArge ${allArge}`)
+// }
+
+// myFunc('one', 'two', 'three', 'four', 'five')
+
+// Log --> alllArge three,four,five
+
+//-------------------- Arrays Object-----------------------
+
+const students = [
+  {
+    name: "John",
+    age: 39,
+  },
+  {
+    name: "Bob",
+    age: 18,
+  },
+  {
+    name: "marry",
+    age: 19,
+  },
+];
+
+//--------------------- loop -----------------------------
+//---forEach---
+
+// students.forEach((student,index,arr) => {
+//   return console.log(`${index+1}. ${student.name}\n`);
+// });
+
 
 
