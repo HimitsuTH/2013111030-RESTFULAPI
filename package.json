@@ -1,0 +1,23 @@
+{
+  "name": "Chinnawich",
+  "version": "1.0.0",
+  "description": "\"2013111030-RESTFulApi\" \r ![image](https://th.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HimitsuTH/2013111030-RESTFULAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HimitsuTH/2013111030-RESTFULAPI/issues"
+  },
+  "homepage": "https://github.com/HimitsuTH/2013111030-RESTFULAPI#readme",
+  "dependencies": {
+    "date-fns": "^2.29.3"
+  }
+}
