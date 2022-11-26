@@ -1,3 +1,2 @@
->**Chinnawih (Chin)** : Chapter 2 - Course
->>การใช้งาน npm และพื้น ฐานภาษา JavaScript
-สมัย ใหม่
+>**Chinnawih (Chin)** : Chapter 3 - Course
+>>แนะนำ Node.js และใช้งาน Express.js
